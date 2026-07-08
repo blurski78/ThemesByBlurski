@@ -71,8 +71,8 @@
     "TEXT_DANGER": ["#ff4466", "#ff4466"],
     "TEXT_LINK": ["#1DB954", "#1DB954"],
     "TEXT_MUTED": ["#535353", "#CAC1FF"],
-    "TEXT_NORMAL": ["#1DB954", "#1DB954"],
-    "TEXT_PRIMARY": ["#1DB954", "#1DB954"],
+    "TEXT_NORMAL": ["#b3b3b3", "#CAC1FF"],
+    "TEXT_PRIMARY": ["#ffffff", "#B2A5FF"],
     "TEXT_WARNING": ["#ffcc44", "#ffcc44"],
     "THREAD_CHANNEL_SPINE": ["#1DB954"]
   },
@@ -341,7 +341,8 @@
   },
   "unsafe_colors": {
     "CHAT_GREY": "#121212",
-    "CHAT_WHITE": "#1DB954",
-    "CHAT_BLACK": "#121212"
+    "CHAT_WHITE": "#ffffff",
+    "CHAT_BLACK": "#121212",
+    "USERNAME": "#1DB954"
   }
 }
