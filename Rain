@@ -1,0 +1,70 @@
+/* Rain overlay that covers EVERYTHING */
+#app-mount::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.02) 0px,
+        rgba(255, 255, 255, 0.07) 1px,
+        transparent 2px,
+        transparent 5px
+    );
+    animation: rainFall 0.35s linear infinite;
+    pointer-events: none;
+    z-index: 99999;
+}
+
+/* Second layer for thicker rain */
+#app-mount::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0px,
+        transparent 10px,
+        rgba(255, 255, 255, 0.03) 10px,
+        rgba(255, 255, 255, 0.06) 11px,
+        transparent 11px,
+        transparent 20px
+    );
+    animation: rainFall2 0.5s linear infinite;
+    pointer-events: none;
+    z-index: 99998;
+}
+
+@keyframes rainFall {
+    0% { transform: translateY(0px) translateX(0px); }
+    100% { transform: translateY(7px) translateX(2px); }
+}
+
+@keyframes rainFall2 {
+    0% { transform: translateY(0px) translateX(0px); }
+    100% { transform: translateY(5px) translateX(-1px); }
+}
+
+/* Make ALL Discord panels transparent */
+.container-2o3qEW,
+.chat-2dQH8X,
+.membersWrap-2h-GB4,
+.sidebar-1tnWFu,
+.channels-3g2vYe,
+.theme-dark .container-1D34oG,
+.container-1D34oG {
+    background: rgba(5, 5, 15, 0.6) !important;
+    backdrop-filter: blur(3px);
+}
+
+/* Keep text readable */
+.content-1SgpWY,
+.member-2gU6Ex,
+.channelName-2K6Saq {
+    color: #e0e0e0 !important;
+}
