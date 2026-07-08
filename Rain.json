@@ -2,12 +2,12 @@
   "name": "Rainy Night",
   "version": "1.0.0",
   "spec": 2,
-  "description": "Dark night theme with rain effect built in",
+  "description": "Dark night theme",
   "color": "#4455ff",
   "authors": [
     {
-      "name": "Your Name",
-      "id": "YOUR_DISCORD_ID"
+      "name": "Blurski",
+      "id": "1497358039718821981"
     }
   ],
   "plus": {
@@ -342,7 +342,6 @@
   "unsafe_colors": {
     "CHAT_GREY": "#0a0a1a",
     "CHAT_WHITE": "#ccddff",
-    "CHAT_BLACK": "#0a0a1a",
-    "CHAT_BACKGROUND": "repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,0.03) 3px, rgba(255,255,255,0.06) 4px, transparent 4px, transparent 7px), #0a0a1a"
+    "CHAT_BLACK": "#0a0a1a"
   }
 }
