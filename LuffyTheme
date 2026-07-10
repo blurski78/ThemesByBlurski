@@ -1,0 +1,42 @@
+{
+  "name": "Neon Void",
+  "description": "Dark futuristic with electric blue & purple glows",
+  "author": "Blurski",
+  "background": {
+    "url": "https://i.imgur.com/1OOyrYL.jpg",
+    "blur": 2,
+    "alpha": 0.4
+  },
+  "theme": {
+    "colors": {
+      "primary": "#0a0a1a",
+      "background": "#06060f",
+      "surface": "#111128",
+      "surfaceLow": "#1a1a35",
+      "surfaceHigh": "#252550",
+      "accent": "#00f0ff",
+      "accentSecondary": "#b000ff",
+      "text": "#f0f0ff",
+      "textSecondary": "#8888bb",
+      "textMuted": "#555577",
+      "success": "#00ff88",
+      "warning": "#ffaa00",
+      "danger": "#ff3366",
+      "border": "#2a2a55"
+    },
+    "radii": {
+      "small": 6,
+      "medium": 12,
+      "large": 20
+    },
+    "shadows": {
+      "small": "0 2px 8px rgba(0, 240, 255, 0.15)",
+      "medium": "0 4px 20px rgba(176, 0, 255, 0.25)",
+      "large": "0 8px 40px rgba(0, 240, 255, 0.2)"
+    },
+    "fonts": {
+      "body": "Inter, system-ui, sans-serif",
+      "monospace": "JetBrains Mono, monospace"
+    }
+  }
+}
