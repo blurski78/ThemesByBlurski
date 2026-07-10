@@ -1,0 +1,21 @@
+{
+  "themeName": "Zoro",
+  "author": "Blurski",
+  "version": "1.0.0",
+  "colors": {
+    "BACKGROUND_PRIMARY": "#1a1a1a",
+    "BACKGROUND_SECONDARY": "#2a2a2a",
+    "BACKGROUND_ACCENT": "#2ecc71",
+    "TEXT_NORMAL": "#f0f0f0",
+    "HEADER_PRIMARY": "#f0f0f0",
+    "INTERACTIVE_NORMAL": "#f0f0f0",
+    "INTERACTIVE_HOVER": "#2ecc71",
+    "INTERACTIVE_ACTIVE": "#2ecc71",
+    "SCROLLBAR_THUMB": "#2ecc71"
+  },
+  "background": {
+    "enabled": true,
+    "url": "https://i.imgur.com/B52Oh2c.jpg",
+    "alpha": 0.85
+  }
+}
