@@ -1,0 +1,44 @@
+{
+  "spec": 2,
+  "name": "Netflix",
+  "authors": [
+    {
+      "name": "Blurski"
+    }
+  ],
+  "background": {
+    "url": "",
+    "blur": 0,
+    "alpha": 0.5
+  },
+  "rawColors": {
+    "PRIMARY_100": "#E50914",
+    "PRIMARY_200": "#E50914",
+    "PRIMARY_300": "#E50914",
+    "PRIMARY_400": "#E50914",
+    "PRIMARY_500": "#E50914",
+    "PRIMARY_600": "#B2070F",
+    "PRIMARY_700": "#8A050C",
+    "PRIMARY_800": "#630308",
+    "PRIMARY_900": "#3D0205",
+    "PRIMARY_950": "#1A0102",
+    "BRAND_100": "#E50914",
+    "BRAND_200": "#E50914",
+    "BRAND_300": "#E50914",
+    "BRAND_400": "#E50914",
+    "BRAND_500": "#E50914",
+    "BRAND_600": "#B2070F",
+    "BRAND_700": "#8A050C",
+    "BRAND_800": "#630308",
+    "BRAND_900": "#3D0205",
+    "BRAND_NEW_100": "#E50914",
+    "BRAND_NEW_200": "#E50914",
+    "BRAND_NEW_300": "#E50914",
+    "BRAND_NEW_400": "#E50914",
+    "BRAND_NEW_500": "#E50914",
+    "BRAND_NEW_600": "#B2070F",
+    "BRAND_NEW_700": "#8A050C",
+    "BRAND_NEW_800": "#630308",
+    "BRAND_NEW_900": "#3D0205"
+  }
+}
