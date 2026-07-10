@@ -10,19 +10,30 @@
   "theme": {
     "colors": {
       "primary": "#8B0000",
+      "primaryDark": "#660000",
       "background": "#0a0a1a",
+      "backgroundSecondary": "#111128",
       "surface": "#1a1a3a",
-      "surfaceLow": "#111128",
+      "surfaceLow": "#0d0d22",
       "surfaceHigh": "#2a1a2a",
       "accent": "#ff3333",
       "accentSecondary": "#2244aa",
       "text": "#f0f0ff",
       "textSecondary": "#aab0cc",
       "textMuted": "#666688",
+      "interactiveNormal": "#f0f0ff",
+      "interactiveHover": "#ff6666",
+      "interactiveActive": "#ff3333",
+      "interactiveMuted": "#666688",
       "success": "#44ff88",
       "warning": "#ffaa00",
       "danger": "#ff2244",
-      "border": "#442233"
+      "border": "#442233",
+      "header": "#1a1a3a",
+      "channel": "#1a1a3a",
+      "channelSelected": "#2a1a2a",
+      "guild": "#0a0a1a",
+      "guildSelected": "#2a1a2a"
     },
     "radii": {
       "small": 6,
