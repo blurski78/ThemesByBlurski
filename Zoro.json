@@ -1,0 +1,16 @@
+{
+  "themeName": "Zoro",
+  "author": "Blurski",
+  "version": "1.0.0",
+  "colors": {
+    "primaryBackground": "#1a1a1a",
+    "secondaryBackground": "#2a2a2a",
+    "accentColor": "#2ecc71",
+    "textColor": "#f0f0f0"
+  },
+  "background": {
+    "enabled": true,
+    "url": "https://i.imgur.com/hHhSgQE.jpg",
+    "alpha": 0.85
+  }
+}
