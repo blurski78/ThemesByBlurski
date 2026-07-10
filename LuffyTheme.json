@@ -1,6 +1,6 @@
 {
   "name": "Neon Void",
-  "description": "Dark futuristic with electric blue & purple glows",
+  "description": "Red & Dark Blue Theme",
   "author": "Blurski",
   "background": {
     "url": "https://i.imgur.com/8jLAnkH.jpg",
@@ -9,20 +9,20 @@
   },
   "theme": {
     "colors": {
-      "primary": "#0a0a1a",
-      "background": "#06060f",
-      "surface": "#111128",
-      "surfaceLow": "#1a1a35",
-      "surfaceHigh": "#252550",
-      "accent": "#00f0ff",
-      "accentSecondary": "#b000ff",
+      "primary": "#8B0000",
+      "background": "#0a0a1a",
+      "surface": "#1a1a3a",
+      "surfaceLow": "#111128",
+      "surfaceHigh": "#2a1a2a",
+      "accent": "#ff3333",
+      "accentSecondary": "#2244aa",
       "text": "#f0f0ff",
-      "textSecondary": "#8888bb",
-      "textMuted": "#555577",
-      "success": "#00ff88",
+      "textSecondary": "#aab0cc",
+      "textMuted": "#666688",
+      "success": "#44ff88",
       "warning": "#ffaa00",
-      "danger": "#ff3366",
-      "border": "#2a2a55"
+      "danger": "#ff2244",
+      "border": "#442233"
     },
     "radii": {
       "small": 6,
@@ -30,9 +30,9 @@
       "large": 20
     },
     "shadows": {
-      "small": "0 2px 8px rgba(0, 240, 255, 0.15)",
-      "medium": "0 4px 20px rgba(176, 0, 255, 0.25)",
-      "large": "0 8px 40px rgba(0, 240, 255, 0.2)"
+      "small": "0 2px 8px rgba(200, 0, 0, 0.2)",
+      "medium": "0 4px 20px rgba(30, 60, 180, 0.3)",
+      "large": "0 8px 40px rgba(200, 0, 0, 0.15)"
     },
     "fonts": {
       "body": "Inter, system-ui, sans-serif",
